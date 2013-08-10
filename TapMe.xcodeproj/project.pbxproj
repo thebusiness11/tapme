@@ -18,6 +18,7 @@
 		40D2785917B5B2510068686B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40D2785817B5B2510068686B /* Default-568h@2x.png */; };
 		40D2785C17B5B2510068686B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D2785A17B5B2510068686B /* MainStoryboard.storyboard */; };
 		40D2785F17B5B2510068686B /* MLVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D2785E17B5B2510068686B /* MLVViewController.m */; };
+		40D2786617B5CE020068686B /* wine-cork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40D2786517B5CE020068686B /* wine-cork.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		40D2785B17B5B2510068686B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		40D2785D17B5B2510068686B /* MLVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLVViewController.h; sourceTree = "<group>"; };
 		40D2785E17B5B2510068686B /* MLVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLVViewController.m; sourceTree = "<group>"; };
+		40D2786517B5CE020068686B /* wine-cork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "wine-cork.jpg"; path = "../../../../../Downloads/ADVFlatUI/ADVFlatUI/Resources/wine-cork.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		40D2784817B5B2510068686B /* TapMe */ = {
 			isa = PBXGroup;
 			children = (
+				40D2786717B5CE060068686B /* Resources */,
 				40D2785117B5B2510068686B /* MLVAppDelegate.h */,
 				40D2785217B5B2510068686B /* MLVAppDelegate.m */,
 				40D2785A17B5B2510068686B /* MainStoryboard.storyboard */,
@@ -105,6 +108,14 @@
 				40D2785817B5B2510068686B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40D2786717B5CE060068686B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				40D2786517B5CE020068686B /* wine-cork.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 				40D2785717B5B2510068686B /* Default@2x.png in Resources */,
 				40D2785917B5B2510068686B /* Default-568h@2x.png in Resources */,
 				40D2785C17B5B2510068686B /* MainStoryboard.storyboard in Resources */,
+				40D2786617B5CE020068686B /* wine-cork.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +311,7 @@
 				40D2786417B5B2510068686B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

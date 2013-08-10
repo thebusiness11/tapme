@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MLVViewController : UIViewController
+@interface MLVViewController : UIViewController {
+    IBOutlet UILabel *scoreLabel;
+    IBOutlet UILabel *timerLabel;
+}
+
+- (IBAction)buttonPressed;
 
 @end
