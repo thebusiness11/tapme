@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MLVViewController : UIViewController {
-    IBOutlet UILabel *scoreLabel;
-    IBOutlet UILabel *timerLabel;
+@interface MLVViewController : UIViewController<UIAlertViewDelegate> {
+  IBOutlet UILabel *scoreLabel;
+  IBOutlet UILabel *timerLabel;
+  
+  NSInteger buttonPressedCount;
+  NSInteger secondsRemaining;
+  NSTimer   *timer;
+
+
 }
 
 - (IBAction)buttonPressed;
